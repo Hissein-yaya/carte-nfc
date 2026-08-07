@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SoftNet-Tchad — Nous contacter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Poppins:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0E1A26;
+    --navy-2:#132436;
+    --gold:#C99A44;
+    --gold-soft:#E4C583;
+    --teal:#2E7D80;
+    --sand:#EFE9DC;
+    --sand-dim:#a9a28f;
+    --line: rgba(239,233,220,0.14);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--navy);
+    color:var(--sand);
+    font-family:'Poppins', sans-serif;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .card{
+    width:100%;
+    max-width:400px;
+  }
+  .eyebrow{
+    font-family:'Space Mono', monospace;
+    font-size:11px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--gold-soft);
+    display:flex; align-items:center; gap:9px;
+    margin-bottom:20px;
+    justify-content:center;
+  }
+  .eyebrow .dot{
+    width:6px; height:6px; border-radius:50%;
+    background:var(--teal);
+    box-shadow:0 0 0 4px rgba(46,125,128,0.25);
+  }
+  h1{
+    font-family:'Lora', serif;
+    font-weight:600;
+    font-size:32px;
+    text-align:center;
+    color:var(--sand);
+  }
+  p.sub{
+    text-align:center;
+    font-family:'Lora', serif;
+    font-style:italic;
+    font-weight:500;
+    color:var(--gold);
+    font-size:16px;
+    margin-top:6px;
+    margin-bottom:38px;
+  }
+  .links{ display:flex; flex-direction:column; gap:12px; }
+  .linkbtn{
+    display:flex; align-items:center; gap:16px;
+    padding:16px 18px;
+    border:1px solid var(--line);
+    border-radius:10px;
+    background:var(--navy-2);
+    text-decoration:none;
+    color:var(--sand);
+    transition: border-color .18s ease, transform .15s ease, background .18s ease;
+  }
+  .linkbtn:active{ transform:scale(0.98); }
+  .linkbtn:hover{ border-color:var(--gold-soft); background:#17293c; }
+  .icon{
+    width:42px; height:42px;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+    font-size:19px;
+    font-weight:600;
+  }
+  .icon.ph{ background:var(--gold-soft); color:#0E1A26; }
+  .icon.wa{ background:#25D366; color:#0E1A26; }
+  .icon.em{ background:#EFE9DC; color:#0E1A26; }
+  .icon.web{ background:var(--teal); color:#0E1A26; }
+  .icon.li{ background:#0A66C2; color:#FFFFFF; }
+  .txt .t{ font-size:15.5px; font-weight:500; }
+  .txt .s{ font-size:12.5px; color:var(--sand-dim); margin-top:2px; }
+  .arrow{ margin-left:auto; color:var(--sand-dim); font-size:16px; }
+
+  footer{
+    text-align:center;
+    margin-top:36px;
+    font-family:'Space Mono', monospace;
+    font-size:10.5px;
+    color:var(--sand-dim);
+    letter-spacing:0.05em;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="eyebrow"><span class="dot"></span> N'Djaména, Tchad</div>
+    <h1>SoftNet-Tchad</h1>
+    <p class="sub">Choisissez comment nous contacter</p>
+
+    <div class="links">
+      <a class="linkbtn" href="tel:+23566554433">
+        <div class="icon ph">☎</div>
+        <div class="txt">
+          <div class="t">Téléphone</div>
+          <div class="s">+235 66 55 44 33</div>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a class="linkbtn" href="https://wa.me/23590554433" target="_blank" rel="noopener">
+        <div class="icon wa">✆</div>
+        <div class="txt">
+          <div class="t">WhatsApp</div>
+          <div class="s">+235 90 55 44 33</div>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a class="linkbtn" href="mailto:contact@softnet-td.com">
+        <div class="icon em">✉</div>
+        <div class="txt">
+          <div class="t">Email</div>
+          <div class="s">contact@softnet-td.com</div>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a class="linkbtn" href="https://www.softnet-td.com" target="_blank" rel="noopener">
+        <div class="icon web">⌘</div>
+        <div class="txt">
+          <div class="t">Site web</div>
+          <div class="s">softnet-td.com</div>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a class="linkbtn" href="https://td.linkedin.com/in/abdellatif-r-64868526" target="_blank" rel="noopener">
+        <div class="icon li">in</div>
+        <div class="txt">
+          <div class="t">LinkedIn</div>
+          <div class="s">Abdellatif R.</div>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+    </div>
+
+    <footer>CARTE NFC · SOFTNET-TCHAD · 2026</footer>
+  </div>
+</body>
+</html>
